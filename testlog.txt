@@ -1,0 +1,118 @@
+CUDA Available: True
+12.6
+Device Count: 1
+Current Device: 0
+Device Name: NVIDIA GeForce RTX 3060
+dataset;57586,train:46068,test;11518
+
+
+� 训练模型: ResNet_MLP
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [01:11<00:00,  5.04it/s, batch test loss:=8.35, batch test rmse:=2.89]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 7.494252
+� 测试集验证损失 (RMSE): 2.620580
+� 模型复杂度 -> FLOPs: 76204922689.42, Params: 11251509.00, 平均推理时间: 0.005784 秒
+� 预测整体耗时: 总时间: 2.0824 秒, 平均样本推理时间: 0.000001 秒
+
+� 训练模型: ImageOnly
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [01:10<00:00,  5.08it/s, batch test loss:=204, batch test rmse:=14.3]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 232.713946
+� 测试集验证损失 (RMSE): 15.153482
+� 模型复杂度 -> FLOPs: 76204631923.91, Params: 11242305.00, 平均推理时间: 0.005230 秒
+� 预测整体耗时: 总时间: 1.8829 秒, 平均样本推理时间: 0.000000 秒
+
+� 训练模型: NumericOnly
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [00:40<00:00,  8.90it/s, batch test loss:=476, batch test rmse:=21.8]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 598.949896
+� 测试集验证损失 (RMSE): 24.399959
+� 模型复杂度 -> FLOPs: 186335.64, Params: 6001.00, 平均推理时间: 0.000658 秒
+� 预测整体耗时: 总时间: 0.2370 秒, 平均样本推理时间: 0.000000 秒
+
+� 训练模型: MobileNet_MLP
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [01:15<00:00,  4.79it/s, batch test loss:=8.58, batch test rmse:=2.93]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 9.760103
+� 测试集验证损失 (RMSE): 2.994897
+� 模型复杂度 -> FLOPs: 2541562647.87, Params: 1010197.00, 平均推理时间: 0.011646 秒
+� 预测整体耗时: 总时间: 4.1924 秒, 平均样本推理时间: 0.000001 秒
+
+� 训练模型: ResNet_Transformer
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [01:11<00:00,  5.06it/s, batch test loss:=10.8, batch test rmse:=3.29]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 9.684535
+� 测试集验证损失 (RMSE): 2.961797
+� 模型复杂度 -> FLOPs: 76205178644.98, Params: 11259525.00, 平均推理时间: 0.006548 秒
+� 预测整体耗时: 总时间: 2.3574 秒, 平均样本推理时间: 0.000001 秒
+
+� 训练模型: MobileNet_Transformer
+
+� Fold 1/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 2/3
+Training samples: 30712, Validation samples: 15356
+
+� Fold 3/3
+Training samples: 30712, Validation samples: 15356
+测试集综合评估: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 360/360 [01:14<00:00,  4.80it/s, batch test loss:=7.8, batch test rmse:=2.79]
+
+✅ 测试集评估结果：
+� 测试集验证损失 (MSE): 9.883328
+� 测试集验证损失 (RMSE): 3.066247
+� 模型复杂度 -> FLOPs: 2541818603.42, Params: 1018213.00, 平均推理时间: 0.012477 秒
+� 预测整体耗时: 总时间: 4.4917 秒, 平均样本推理时间: 0.000001 秒
+
+进程已结束,退出代码0
+
